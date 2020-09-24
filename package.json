@@ -1,0 +1,41 @@
+{
+  "name": "youtube-clone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engine":{
+    "node": "12.18.1",
+    "npm": "6.14.8"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.3.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "debug": "^4.1.1",
+    "express": "^4.17.1",
+    "ffmpeg": "0.0.4",
+    "fluent-ffmpeg": "^2.1.2",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.28.0",
+    "mongoose": "^5.10.2",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.4",
+    "path": "^0.12.7",
+    "react-dropzone": "^11.1.0",
+    "react-redux": "^7.2.1",
+    "saslprep": "^1.0.3",
+    "support-color": "^7.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node youtube-clone-backend/server.js",
+    "backend": "nodemon youtube-clone-backend/server.js",
+    "frontend": "npm run start --prefix youtube-clone",
+    "dev": "concurrently \"npm run backend\" \"npm run start --prefix youtube-clone\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix youtube-clone && npm run build --prefix youtube-clone"
+  },
+  "author": "",
+  "license": "ISC"
+}

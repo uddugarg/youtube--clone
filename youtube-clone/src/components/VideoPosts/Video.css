@@ -1,0 +1,210 @@
+.video{
+    margin-top: 70px;
+    margin-left: 20px;
+    width: 100%;
+    position: absolute;
+    display: flex;
+}
+
+.video__left{
+    flex: 0.7;
+    width: 70%;
+}
+
+.video__arena{
+    width: 100%;
+    height: 700px;
+    text-align: left;
+    margin-bottom: -90px;
+}
+
+.video__arena > video{
+    width: 100%;
+    height: 500px;
+}
+
+.video__arena > h2{
+    padding: 10px;
+}
+
+.video__arena > p{
+    color: gray;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.video__btns{
+    margin-left: 76%;
+    display: flex;
+    align-items: center;
+}
+
+.video__btn{
+    margin-top: -60px !important;
+    margin-left: 20px;
+    font-size: 30px !important;
+}
+
+.video__actionBtn{
+    color: gray !important;
+}
+
+.video__actionDoneBtn{
+    color: black !important;
+}
+
+.video__btnNum{
+    margin-top: -60px !important;
+    margin-left: -10px;
+    margin-right: 5px;
+}
+
+.video__hr{
+    color: lightgray;
+    background-color: lightgray;
+    height: 1px;
+    border: 0;
+    width: 100%;
+}
+
+.video__details{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 20px 0px 20px 0px;
+}
+
+.video__details > h3{
+    text-transform: capitalize;
+    margin-left: 20px;
+    margin-right: 74% !important;
+}
+
+.video__submitBtn{
+    width: 140px !important;
+    height: 40px !important;
+    color: white !important;
+    background-color: rgb(202, 70, 70) !important;
+}
+
+.video__subscribed{
+    width: 140px !important;
+    height: 40px !important;
+    background-color: gray !important;
+}
+
+.video__description{
+    padding: 20px 0px 20px 0px;
+    margin-left: 60px;
+}
+
+.video__comments{
+    padding: 20px 0px 20px 0px;
+}
+
+.video__right{
+    flex: 0.3;
+    width: 30%;
+    margin-left: 5%;
+}
+
+.sidePanel{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.sidePanel__thumbnail{
+    width: 200px;
+    height: 120px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.sidePanel__img{
+    width: 100%;
+    height: 100%;
+}
+
+.sidePanel__description{
+    width: 200px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    margin-top: -60px;
+}
+
+.sidePanel__description > span{
+    color: gray;
+    font-size: 13px;
+}
+
+.comment > h4{
+    margin-bottom: 30px;
+}
+
+.comment__fields{
+    display: flex;
+    align-items: center;
+}
+
+.comment__field{
+    width: 90% !important;
+    margin-left: 30px !important;
+    margin-top: -20px !important;
+}
+
+.comment__list{
+    padding: 20px 0px 20px 0px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.comment__img{
+    margin-top: -50px !important;
+}
+
+.comment__info{
+    margin-left: 30px;
+}
+
+.comment__info > h4{
+    /* margin-top: 30px; */
+    margin-bottom: 10px;
+}
+
+.comment__info > p{
+    margin-bottom: 10px;
+}
+
+.comment__actions{
+    display: flex;
+    align-items: center !important;
+}
+
+.comment__actionBtn{
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.comment__btnNum{
+    margin-left: -10px;
+    margin-right: 5px;
+}
+
+.comment__replyField{
+    width: 280% !important;
+    margin-left: 80px !important;
+}
+
+.replies{
+    margin-left: 70px;
+    margin-top: -20px !important;
+    margin-bottom: 20px;
+}
+
+.replies > h5{
+    cursor: pointer;
+}

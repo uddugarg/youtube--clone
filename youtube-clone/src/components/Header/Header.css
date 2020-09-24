@@ -1,0 +1,116 @@
+.header{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 57px;
+    width: 100%;
+    color: white;
+    background: rgb(59, 55, 55);
+    overflow-x: hidden;
+    z-index: 999;
+  }
+  
+  .header__hamburger{
+    margin-right: 10px;
+    margin-left: 20px !important;
+    color: white !important;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .header__hamburger {
+      margin: 0 !important;
+    }
+  }
+  
+  .header__logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center !important;
+    margin-right: auto !important;
+    margin-left: 20px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .header__logo {
+      margin-left: 0px !important;
+    }
+  }
+  
+  .header__logo h4{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: 600;
+    align-self: center;
+    margin-left: 5px;
+    letter-spacing: 0px;
+    color: white !important;
+  }
+  
+  .header__logo sup{
+    font-size: 9px;
+    font-weight: 400;
+  }
+  
+  .header__searchBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto !important;
+    width: 48% !important;
+    margin-left: 20px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .header__searchBar {
+      margin-right: 20px !important;
+    }
+  }
+  
+  .header__searchBar input{
+    flex: 1;
+    height: 32px;
+    color: white;
+    background: rgb(41, 36, 36);
+    border: 1px solid rgb(73, 70, 70);
+  }
+  
+  .header__searchIcon{
+    text-align: center;
+    width: 70px !important;
+    background: rgb(68, 66, 66);
+  }
+  
+  .header__search{
+    height: 30px;
+    color: lightgray !important;
+  }
+  
+  .header__icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    object-fit: contain;
+    /* padding-right: 20px; */
+  }
+  
+  .header__icon{
+    margin-right: 28px;
+    flex: 1;
+    color: white !important;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .header__icon {
+      margin-right: auto;
+    }
+  }
+  
+  .header__userPic{
+    margin-right: 30px;
+  }
+
+  a{
+    text-decoration: none;
+    color: initial;
+  }
